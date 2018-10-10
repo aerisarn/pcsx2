@@ -17,8 +17,8 @@
 
 #include "Path.h"
 #include "FixedPointTypes.h"
-#include <wx/config.h>
-#include <wx/gdicmn.h>
+//#include <wx/config.h>
+//#include <wx/gdicmn.h>
 
 // --------------------------------------------------------------------------------------
 //  IniInterface (abstract base class)

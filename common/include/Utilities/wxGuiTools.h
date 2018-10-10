@@ -24,6 +24,9 @@
 // them.  For tools which require only wxBase, see wxBaseTools.h
 // ----------------------------------------------------------------------------
 
+#ifndef wxUSE_GUI
+#define wxUSE_GUI            1
+#endif // wxUSE_GUI
 
 #if wxUSE_GUI
 

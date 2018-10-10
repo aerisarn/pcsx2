@@ -18,7 +18,7 @@
 #ifndef EMITTER_PRECOMPILED_HEADER
 #define EMITTER_PRECOMPILED_HEADER
 
-#include <wx/string.h>
+//#include <wx/string.h>
 
 #include "Pcsx2Defs.h"
 

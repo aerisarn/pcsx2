@@ -63,7 +63,9 @@ void Console_SetActiveHandler(const IConsoleWriter &writer, FILE *flushfp)
 // On all other platforms this pipes to Stdout instead.
 void MSW_OutputDebugString(const wxString &text)
 {
-#if defined(__WXMSW__) && !defined(__WXMICROWIN__)
+#if defined _WIN32 && defined _DEBUG
+	OutputDebugString(text);
+#elif defined(__WXMSW__) && !defined(__WXMICROWIN__)
     static bool hasDebugger = wxIsDebuggerRunning();
     if (hasDebugger)
         OutputDebugString(text);

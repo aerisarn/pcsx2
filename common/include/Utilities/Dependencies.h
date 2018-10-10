@@ -213,7 +213,7 @@ public:
 // used anywhere in w32pthreads, so I've chosen to use the wxWidgets mode_t
 // (I think it's unsigned int vs signed int)
 //#include <wx/filefn.h>
-#define HAVE_MODE_T
+//#define HAVE_MODE_T
 #endif
 
 #include <stdexcept>

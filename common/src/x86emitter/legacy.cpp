@@ -28,6 +28,8 @@
 #include "PrecompiledHeader.h"
 #include "legacy_internal.h"
 
+#include <assert.h>
+
 emitterT void ModRM(uint mod, uint reg, uint rm)
 {
     // Note: Following assertions are for legacy support only.
