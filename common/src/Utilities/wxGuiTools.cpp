@@ -17,8 +17,8 @@
 #include "wxGuiTools.h"
 #include "pxStaticText.h"
 
-#include <wx/app.h>
-#include <wx/window.h>
+//#include <wx/app.h>
+//#include <wx/window.h>
 
 const pxAlignmentType
     pxCentre = {pxAlignmentType::Center}, // Horizontal centered alignment

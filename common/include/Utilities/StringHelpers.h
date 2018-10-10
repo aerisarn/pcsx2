@@ -19,7 +19,7 @@
 #include "SafeArray.h"
 #include "ScopedAlloc.h"
 
-#include <wx/tokenzr.h>
+//#include <wx/tokenzr.h>
 
 #if _WIN32
 #define WX_STR(str) (str.wc_str())

@@ -17,7 +17,7 @@
 #include "PageFaultSource.h"
 
 #ifndef __WXMSW__
-#include <wx/thread.h>
+//#include <wx/thread.h>
 #endif
 
 #include "EventSource.inl"

@@ -17,7 +17,7 @@
 #include "wxBaseTools.h"
 #include "pxStreams.h"
 
-#include <wx/stream.h>
+//#include <wx/stream.h>
 
 #include <errno.h>
 

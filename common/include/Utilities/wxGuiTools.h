@@ -31,7 +31,7 @@
 #include <memory>
 #include <stack>
 
-#include <wx/wx.h>
+//#include <wx/wx.h>
 
 class pxStaticText;
 class pxStaticHeading;

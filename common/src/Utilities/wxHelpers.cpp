@@ -19,9 +19,9 @@
 #include "Threading.h"
 #include "IniInterface.h"
 
-#include <wx/cshelp.h>
-#include <wx/tooltip.h>
-#include <wx/spinctrl.h>
+//#include <wx/cshelp.h>
+//#include <wx/tooltip.h>
+//#include <wx/spinctrl.h>
 
 using namespace pxSizerFlags;
 

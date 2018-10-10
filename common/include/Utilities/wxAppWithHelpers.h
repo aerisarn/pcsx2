@@ -15,7 +15,7 @@
 
 #pragma once
 
-#include <wx/wx.h>
+//#include <wx/wx.h>
 
 #include "Threading.h"
 #include "wxGuiTools.h"

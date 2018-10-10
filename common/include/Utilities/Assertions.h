@@ -15,6 +15,8 @@
 
 #pragma once
 
+#include <Pcsx2Types.h>
+
 #ifndef __pxFUNCTION__
 #if defined(__GNUG__)
 #define __pxFUNCTION__ __PRETTY_FUNCTION__

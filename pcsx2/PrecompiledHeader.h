@@ -29,11 +29,11 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 // Welcome wxWidgets to the party!
 
-#include <wx/string.h>
-#include <wx/tokenzr.h>
-#include <wx/intl.h>
-#include <wx/log.h>
-#include <wx/filename.h>
+//#include <wx/string.h>
+//#include <wx/tokenzr.h>
+//#include <wx/intl.h>
+//#include <wx/log.h>
+//#include <wx/filename.h>
 
 //////////////////////////////////////////////////////////////////////////////////////////
 // Include the STL junk that's actually handy.

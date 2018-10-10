@@ -15,7 +15,7 @@
 
 #include "PrecompiledHeader.h"
 
-#include <wx/app.h>
+//#include <wx/app.h>
 #include "Threading.h"
 
 #if defined(__UNIX__)

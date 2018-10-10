@@ -15,7 +15,7 @@
 
 #pragma once
 
-#include <wx/wx.h>
+//#include <wx/wx.h>
 #include "SafeArray.h"
 #include "wxGuiTools.h"
 

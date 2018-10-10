@@ -167,9 +167,6 @@
       <Project>{e9b51944-7e6d-4bcd-83f2-7bbd5a46182d}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\..\3rdparty\wxwidgets3.0\build\msw\wx30_base.vcxproj">
-      <Project>{3fcc50c2-81e9-5db2-b8d8-2129427568b1}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\..\common\build\Utilities\utilities.vcxproj">
       <Project>{4639972e-424e-4e13-8b07-ca403c481346}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

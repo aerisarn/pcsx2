@@ -19,7 +19,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <sys/time.h>
-#include <wx/utils.h>
+//#include <wx/utils.h>
 
 // Returns 0 on failure (not supported by the operating system).
 u64 GetPhysicalMemory()

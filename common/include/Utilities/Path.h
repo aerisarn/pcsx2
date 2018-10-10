@@ -15,7 +15,7 @@
 
 #pragma once
 
-#include <wx/filename.h>
+//#include <wx/filename.h>
 #include "StringHelpers.h"
 
 #define g_MaxPath 255 // 255 is safer with antiquated Win32 ASCII APIs.

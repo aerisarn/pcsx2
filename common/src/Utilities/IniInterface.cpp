@@ -16,7 +16,7 @@
 #include "PrecompiledHeader.h"
 #include "IniInterface.h"
 
-#include <wx/gdicmn.h>
+//#include <wx/gdicmn.h>
 
 const wxRect wxDefaultRect(wxDefaultCoord, wxDefaultCoord, wxDefaultCoord, wxDefaultCoord);
 

@@ -15,9 +15,9 @@
 
 #pragma once
 
-#include <wx/app.h>
-#include <wx/datetime.h>
-#include <wx/thread.h>
+//#include <wx/app.h>
+//#include <wx/datetime.h>
+//#include <wx/thread.h>
 
 namespace Threading
 {

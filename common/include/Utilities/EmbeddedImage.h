@@ -15,9 +15,9 @@
 
 #pragma once
 
-#include <wx/image.h>
-#include <wx/mstream.h>
-#include <wx/gdicmn.h>
+//#include <wx/image.h>
+//#include <wx/mstream.h>
+//#include <wx/gdicmn.h>
 
 //////////////////////////////////////////////////////////////////////////////////////////
 // Interface for loadable embedded images.  See EmbeddedImage description for details.

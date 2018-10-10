@@ -14,7 +14,7 @@
  */
 
 #include "PrecompiledHeader.h"
-#include <wx/gdicmn.h> // for wxPoint/wxRect stuff
+//#include <wx/gdicmn.h> // for wxPoint/wxRect stuff
 
 __fi wxString fromUTF8(const char *src)
 {

@@ -16,8 +16,8 @@
 #include "PrecompiledHeader.h"
 #include "Path.h"
 
-#include <wx/file.h>
-#include <wx/utils.h>
+//#include <wx/file.h>
+//#include <wx/utils.h>
 
 // ---------------------------------------------------------------------------------
 //  wxDirName (implementations)

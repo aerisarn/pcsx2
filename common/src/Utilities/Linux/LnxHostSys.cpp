@@ -17,7 +17,7 @@
 #include "../PrecompiledHeader.h"
 #include "PageFaultSource.h"
 
-#include <wx/thread.h>
+//#include <wx/thread.h>
 
 #include <sys/mman.h>
 #include <signal.h>

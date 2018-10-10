@@ -15,7 +15,7 @@
 
 #include "PrecompiledHeader.h"
 #include "pxStaticText.h"
-#include <wx/wizard.h>
+//#include <wx/wizard.h>
 
 // --------------------------------------------------------------------------------------
 //  pxStaticText  (implementations)

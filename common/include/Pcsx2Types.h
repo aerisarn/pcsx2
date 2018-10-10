@@ -190,4 +190,12 @@ typedef long vol_t;
 typedef s32 vol_t;
 #endif
 
+
+//OO wrapper for c89 dynamic strings
+class wxString {
+
+};
+
 #endif
+
+
