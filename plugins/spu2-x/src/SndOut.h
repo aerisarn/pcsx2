@@ -670,8 +670,11 @@ public:
 //internal
 extern SndOutModule *WaveOut;
 extern SndOutModule *DSoundOut;
+#ifdef _XAUDIO_27
 extern SndOutModule *XAudio2_27_Out;
+#else
 extern SndOutModule *XAudio2Out;
+#endif
 #endif
 extern SndOutModule *PortaudioOut;
 #if defined(SPU2X_SDL) || defined(SPU2X_SDL2)

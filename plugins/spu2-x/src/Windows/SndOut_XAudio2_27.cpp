@@ -16,6 +16,8 @@
  */
 
 #include "Global.h"
+
+#ifdef _XAUDIO_27
 #include "Dialogs.h"
 
 #if _WIN32_WINNT >= 0x602
@@ -24,3 +26,4 @@
 #include <xaudio2.h>
 
 #include "SndOut_XAudio2.inl"
+#endif

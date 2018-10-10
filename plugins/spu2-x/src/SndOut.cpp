@@ -84,7 +84,9 @@ SndOutModule *mods[] =
     {
         &NullOut,
 #ifdef _MSC_VER
+#ifdef _XAUDIO_27
         XAudio2_27_Out,
+#endif
         DSoundOut,
         WaveOut,
 #endif
