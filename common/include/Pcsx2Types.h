@@ -190,11 +190,85 @@ typedef long vol_t;
 typedef s32 vol_t;
 #endif
 
+//funny thing use wxChar that should wrap UNICODE, and then define
+//operator overloads for both char and wchar_t
+typedef wchar_t wxChar;
 
-//OO wrapper for c89 dynamic strings
-class wxString {
+//OO wrapper for c89 dynamic strings, probably to be moved
+#include <dstr.h>
+class wxString : public dstr {
+public:
+	wxString();
+	wxString(const wxString&);
+	wxString(const wxChar*);
+	//mah, this should just be unwrapped
+	wxString(const char*);
+
+	const wxChar* data();
+
+	const wxChar* ToUTF8() const;
+	wxChar* ToUTF8();
+	const wchar_t* wc_str() const;
+	const wxChar *wx_str() const;
+};
+
+#define wxEmptyString L""
+
+#define wxT
+
+class wxCharBuffer {
+public:
+	wxCharBuffer(const wxChar*);
+	//utilities sometimes use char directly eve if wchar
+	//const wxChar* data() const;
+	const char* data() const;
+	operator wxChar*() const;
+	operator char*() const;
+};
+
+class wxArrayString {
 
 };
+
+enum wxStringTokenizerMode {
+	wxTOKEN_RET_EMPTY_ALL
+};
+
+class wxStringTokenizer {
+
+};
+
+// The macros and functions in this file are designed to work whether or not
+// _UNICODE is defined.  The following are helper macros that give certain
+// strings the right character width.
+#define WINUNIT_WIDEN2(x) L ## x
+#define WINUNIT_WIDEN(x) WINUNIT_WIDEN2(x)
+
+#ifndef __WFILE__
+#define __WFILE__ WINUNIT_WIDEN(__FILE__)
+#else
+#pragma message("WinUnit.h: __WFILE__ already defined")
+#endif
+
+#ifdef _UNICODE
+#define TSTRING(x) WINUNIT_WIDEN(#x)
+#define __TFILE__ __WFILE__
+#define __TFUNCTION__ __WFUNCTION__
+#else
+#define TSTRING(x) #x
+#define __TFILE__ __FILE__
+#define __TFUNCTION__ __FUNCTION__
+#endif
+
+#ifdef _UNICODE
+
+#define _T(str) L##str
+
+#else
+
+#define _T(str) str
+
+#endif
 
 #endif
 

@@ -17,6 +17,11 @@
 
 #include "Console.h"
 
+#ifdef _WIN32
+//unsure on linux
+#include <stdarg.h>
+#endif
+
 // These macros are currently not needed (anymore), but might be needed aain in the future --air
 #define TraceLog_ImplementBaseAPI(thistype)
 #define ConsoleLog_ImplementBaseAPI(thistype)
